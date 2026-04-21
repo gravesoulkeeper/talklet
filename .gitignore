@@ -1,0 +1,5 @@
+tmux-resurrect/
+node_modules/
+dist/
+uploads/
+.env

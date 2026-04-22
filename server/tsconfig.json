@@ -1,25 +1,21 @@
 {
-  "compilerOptions": {
-    "moduleResolution": "bundler",
-    "baseUrl": "./",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ],
-      "@config": [
-        "./src/config"
-      ]
-    },
-    // check
-    "strict": true,
-    "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true,
-    "allowImportingTsExtensions": false
-  }
+	"compilerOptions": {
+		"moduleResolution": "bundler",
+		"baseUrl": "./",
+		"paths": {
+			"@/*": ["./src/*"],
+			"@config": ["./src/config"]
+		},
+		// check
+		"strict": true,
+		"jsx": "react-jsx",
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"noUncheckedIndexedAccess": true,
+		"exactOptionalPropertyTypes": true,
+		"moduleDetection": "force",
+		"skipLibCheck": true,
+		"allowImportingTsExtensions": false
+	}
 }
